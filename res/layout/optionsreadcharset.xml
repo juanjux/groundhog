@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+				
+	<PreferenceCategory android:title="@string/read_charset_title"> 
+		
+		<ListPreference
+		android:key="readDefaultCharset"
+		android:title="@string/read_charset_title"
+		android:summary="@string/read_charset_summary"  
+		android:entries="@array/postCharsetKeys" 
+		android:entryValues="@array/postCharsetValues" 
+		android:dialogTitle="@string/read_charset_dialog_title" 
+		/>
+
+	</PreferenceCategory>
+	
+</PreferenceScreen>

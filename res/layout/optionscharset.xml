@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+				
+	<PreferenceCategory android:title="Posting Charset"> 
+		
+		<ListPreference
+		android:key="postCharset"
+		android:title="@string/post_charset_title"
+		android:summary="@string/post_charset_summary"  
+		android:entries="@array/postCharsetKeys" 
+		android:entryValues="@array/postCharsetValues" 
+		android:dialogTitle="@string/post_charset_dialog_title" 
+		/>
+
+	</PreferenceCategory>
+	
+</PreferenceScreen>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:padding="0px"
+    >	
+	
+	<TextView
+		android:id="@+id/topbar"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:textAppearance="?android:attr/textAppearanceLarge"
+  		android:singleLine="true"
+  		android:textColor="#ffffffff"
+  		android:background="@drawable/solid_blue"
+  		android:padding="0px"
+  		android:paddingBottom="3px"
+  		android:layout_marginBottom="12px"
+  		android:gravity="center_horizontal"
+	/>
+	
+	<ListView
+		android:id="@+id/list_banned"
+		android:layout_width="fill_parent"		
+		android:layout_height="0dip"
+	    android:layout_weight="1"
+	    android:padding="3px"		
+	/>
+	
+	<Button
+		android:id="@+id/btn_banned_done"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="3px"
+		android:text="@string/done"
+	/>
+
+
+</LinearLayout>

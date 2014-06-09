@@ -1,0 +1,83 @@
+1.15.1
+- Bugfixes (lots, thanks to the Market new crash reporting tool)
+
+1.14.0
+- Basic and kludgy nested threading
+- Mark new threads more clearly
+- Remove star icons for non thread header items
+- On the first message on a thread (thread header) the subject is the big text, in other messages
+  the author is the big text.
+
+1.13.1
+- Bugfix: dont allow the subscribe groups search box to use more than
+  one term.
+
+1.13.0
+- Configurable background checking of new messages and notifications
+- Chinesse translation added thanks to Whynonna Zeng.
+
+1.12.0
+- Option to show unread messages on the group messages list.
+- Options to expire old read messages by date or manually.
+
+1.11.0
+- Reorganization of the settings
+- First-time users are sent directly to the settings
+- HTC Tattoo support
+- Decoupling of network code on the download dialog (preparing for the
+  notifier.)
+
+1.10.1
+- Turkish translation added thanks to Mustafa Ogun
+
+1.10.0
+- Offline mode is now default so some clueless people doesnt say the program is
+  "slow" because of the network time to get the messages in online mode.
+- Offer to download messages when entering a group in offline mode if
+  there are no messages.
+- Lots of GUI and usability improvements
+
+1.9.1
+- Bugfix for the "next" & "prev" buttons inversion on the messageview.
+
+1.9.0
+
+Features:
+- Awesome new quoted text display
+
+Usability:
+- Russian translation
+- Small usability improvements
+
+Refactor:
+- Convert all thread code to AsyncTask
+
+
+1.8.0
+
+Features.
+- Spanish translation added
+- Buttons on GroupList to add a new group and go to settings
+
+Usability:
+- Reload the messagelist when the user changues the read charset
+
+Maintenance:
+- Migrated MessageActivity to AsyncTask (it rocks). Only 9 threads more
+  to go...
+
+Fixes:
+- Fix the favorite author toggling and banning from the message view
+
+1.7.0
+
+Features:
+- International charsets supported
+- Migrated to mime4j
+- Some usability improvements
+- Informs with separate messages when getting the article numbers
+
+Fixes:
+- Dont put two newlines between the header and the body
+- Dont allow the CPU to sleep when downloading messages
+- Remove odd chars at the end of the body

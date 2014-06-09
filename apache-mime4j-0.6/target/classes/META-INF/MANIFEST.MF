@@ -1,0 +1,72 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.james.mime4j.storage;uses:="javax.crypto.sp
+ ec,org.apache.commons.logging,org.apache.james.mime4j.util,javax.cryp
+ to,org.apache.james.mime4j.codec";version="0.6",org.apache.james.mime
+ 4j.parser;uses:="org.apache.commons.logging,org.apache.james.mime4j.u
+ til,org.apache.james.mime4j.io,org.apache.james.mime4j,org.apache.jam
+ es.mime4j.codec,org.apache.james.mime4j.descriptor";version="0.6",org
+ .apache.james.mime4j.field.datetime.parser;uses:="org.apache.james.mi
+ me4j.field.datetime,org.apache.james.mime4j.field";version="0.6",org.
+ apache.james.mime4j.field.contenttype.parser;uses:="org.apache.james.
+ mime4j.field";version="0.6",org.apache.james.mime4j.io;uses:="org.apa
+ che.james.mime4j.util,org.apache.james.mime4j";version="0.6",org.apac
+ he.james.mime4j.field;uses:="org.apache.james.mime4j.parser,org.apach
+ e.commons.logging,org.apache.james.mime4j.field.contenttype.parser,or
+ g.apache.james.mime4j.field.datetime.parser,org.apache.james.mime4j,o
+ rg.apache.james.mime4j.codec,org.apache.james.mime4j.field.address.pa
+ rser,org.apache.james.mime4j.field.datetime,org.apache.james.mime4j.f
+ ield.address,org.apache.james.mime4j.util,org.apache.james.mime4j.fie
+ ld.contentdisposition.parser";version="0.6",org.apache.james.mime4j;v
+ ersion="0.6",org.apache.james.mime4j.descriptor;uses:="org.apache.jam
+ es.mime4j.parser,org.apache.commons.logging,org.apache.james.mime4j.f
+ ield.datetime.parser,org.apache.james.mime4j,org.apache.james.mime4j.
+ field.datetime,org.apache.james.mime4j.field.language.parser,org.apac
+ he.james.mime4j.util,org.apache.james.mime4j.field.structured.parser,
+ org.apache.james.mime4j.field.mimeversion.parser";version="0.6",org.a
+ pache.james.mime4j.codec;uses:="org.apache.commons.logging,org.apache
+ .james.mime4j.util";version="0.6",org.apache.james.mime4j.field.addre
+ ss.parser;uses:="org.apache.james.mime4j.field";version="0.6",org.apa
+ che.james.mime4j.field.language.parser;uses:="org.apache.james.mime4j
+ .field";version="0.6",org.apache.james.mime4j.field.datetime;version=
+ "0.6",org.apache.james.mime4j.field.address;uses:="org.apache.james.m
+ ime4j.field.address.parser,org.apache.james.mime4j.codec";version="0.
+ 6",org.apache.james.mime4j.util;uses:="org.apache.commons.logging";ve
+ rsion="0.6",org.apache.james.mime4j.field.contentdisposition.parser;u
+ ses:="org.apache.james.mime4j.field";version="0.6",org.apache.james.m
+ ime4j.message;uses:="org.apache.james.mime4j.storage,org.apache.james
+ .mime4j.parser,org.apache.commons.logging,org.apache.james.mime4j.fie
+ ld,org.apache.james.mime4j,org.apache.james.mime4j.codec,org.apache.j
+ ames.mime4j.descriptor,org.apache.james.mime4j.field.address,org.apac
+ he.james.mime4j.util";version="0.6",org.apache.james.mime4j.field.str
+ uctured.parser;uses:="org.apache.james.mime4j.field";version="0.6",or
+ g.apache.james.mime4j.field.mimeversion.parser;uses:="org.apache.jame
+ s.mime4j.field";version="0.6"
+Tool: Bnd-0.0.255
+Bundle-Name: Apache JAMES Mime4j
+Created-By: 1.6.0_15 (Sun Microsystems Inc.)
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 0.6
+Bnd-LastModified: 1268531693096
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-Description: Java stream based MIME message parser
+Import-Package: javax.crypto,javax.crypto.spec,org.apache.commons.logg
+ ing,org.apache.james.mime4j;version="0.6",org.apache.james.mime4j.cod
+ ec;version="0.6",org.apache.james.mime4j.descriptor;version="0.6",org
+ .apache.james.mime4j.field;version="0.6",org.apache.james.mime4j.fiel
+ d.address;version="0.6",org.apache.james.mime4j.field.address.parser;
+ version="0.6",org.apache.james.mime4j.field.contentdisposition.parser
+ ;version="0.6",org.apache.james.mime4j.field.contenttype.parser;versi
+ on="0.6",org.apache.james.mime4j.field.datetime;version="0.6",org.apa
+ che.james.mime4j.field.datetime.parser;version="0.6",org.apache.james
+ .mime4j.field.language.parser;version="0.6",org.apache.james.mime4j.f
+ ield.mimeversion.parser;version="0.6",org.apache.james.mime4j.field.s
+ tructured.parser;version="0.6",org.apache.james.mime4j.io;version="0.
+ 6",org.apache.james.mime4j.message;version="0.6",org.apache.james.mim
+ e4j.parser;version="0.6",org.apache.james.mime4j.storage;version="0.6
+ ",org.apache.james.mime4j.util;version="0.6"
+Bundle-SymbolicName: org.apache.james.apache-mime4j
+Bundle-DocURL: http://www.apache.org
+Embed-Dependency: *;scope=runtime
+Originally-Created-By: 1.6.0_15 (Sun Microsystems Inc.)
+

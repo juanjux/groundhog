@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  Layout principal, contiene las opciones (con su layout y scroll) y el layout de los botones -->
+
+<PreferenceScreen 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	
+>
+	
+	<PreferenceScreen 
+	android:title="@string/category_connection"
+	android:summary="@string/section_mandatory"
+	android:icon="@drawable/love"
+	>   
+		<EditTextPreference
+		android:key="host"
+		android:id="@+id/preference_host"
+		android:title="@string/server_address_title"
+		android:summary="@string/server_address_summary"
+		android:dialogTitle="@string/server_address_dialog_title"
+		android:dialogMessage="@string/server_address_dialog_message"
+		android:singleLine="true"
+		/>
+
+		<EditTextPreference
+		android:key="port"			
+		android:title="@string/server_port_title"
+		android:summary="@string/server_port_summary"
+		android:dialogTitle="@string/server_port_dialog_title"
+		android:defaultValue="119"
+		android:singleLine="true"
+		android:numeric="integer"			
+		/>
+		
+ 		<CheckBoxPreference
+		android:key="useSSL"
+		android:id="@+id/preference_useSSL"
+		android:title="@string/server_uses_ssl_title"
+		android:summary="@string/server_uses_ssl_summary"
+		android:checked="false"
+		android:defaultValue="false"
+		/>
+		
+		<CheckBoxPreference
+		android:key="trustAllCertificates"
+		android:dependency="useSSL"
+		android:title="@string/trust_all_certificates_title"
+		android:summary="@string/trust_all_certificates_summary"
+		android:checked="false"
+		android:defaultValue="false"
+		/>		
+		
+		<CheckBoxPreference
+		android:key="needsAuth"
+		android:id="@+id/preference_needsAuth"
+		android:title="@string/server_need_login_title"
+		android:summary="@string/server_need_login_summary"			
+		android:checked="true"
+		android:defaultValue="true"
+		/>
+
+		<EditTextPreference	
+		android:key="login"
+		android:dependency="needsAuth"	
+		android:title="@string/login_name_title"
+		android:summary="@string/login_name_summary"
+		android:dialogTitle="@string/login_name_dialog_title"
+		android:singleLine="true"
+		/>
+		
+		<EditTextPreference		
+		android:key="pass"
+		android:dependency="needsAuth"	
+		android:title="@string/pass_title"
+		android:summary="@string/pass_summary"
+		android:dialogTitle="@string/pass_dialog_title"
+		android:password="true"	
+		android:singleLine="true"
+		/>
+		
+		<EditTextPreference
+		android:key="maxFetch"
+		android:title="@string/maxfetch_title"
+		android:summary="@string/maxfetch_summary"
+		android:dialogTitle="@string/maxfetch_dialog_title"
+		android:defaultValue="100"
+		android:singleLine="true"
+		android:numeric="integer"
+		/>
+		
+	</PreferenceScreen>
+				
+	<PreferenceScreen 
+		android:title="@string/category_userinfo"
+		android:summary="@string/summary_userinfo"
+	> 
+		<EditTextPreference
+		android:key="name"			
+		android:title="@string/name_title"
+		android:summary="@string/name_summary"
+		android:dialogTitle="@string/name_dialog_title"
+		android:singleLine="true"
+		/>
+
+		<EditTextPreference
+		android:key="email"			
+		android:title="@string/email_title"
+		android:summary="@string/email_summary"
+		android:dialogTitle="@string/email_dialog_title"
+		android:singleLine="true"
+		android:defaultValue="fake@fakeemail.com"						
+		/>
+		 				
+		<EditTextPreference
+		android:key="signature"
+		android:title="@string/signature_title"
+		android:summary="@string/signature_summary"
+		android:dialogTitle="@string/signature_dialog_title"
+		android:singleLine="false"
+		/>
+	</PreferenceScreen>
+	
+	<PreferenceScreen 
+		android:title="@string/category_reading"
+		android:summary="@string/options_reading"
+	>
+	
+		<CheckBoxPreference
+		android:key="justifyText"
+		android:id="@+id/preference_justifyText"
+		android:title="@string/justifyText_title"
+		android:summary="@string/justifyText_summary"			
+		android:defaultValue="false"
+		/>
+	
+		<ListPreference
+		android:key="readDefaultCharset"
+		android:title="@string/read_charset_title"
+		android:summary="@string/read_charset_summary"  
+		android:entries="@array/postCharsetKeys" 
+		android:entryValues="@array/postCharsetValues" 
+		android:dialogTitle="@string/read_charset_dialog_title"
+		android:defaultValue="ISO8859-15" 
+		/>	
+	
+		<CheckBoxPreference
+		android:key="markReplies"
+		android:id="@+id/preference_markReplies"
+		android:title="@string/replies_title"
+		android:summary="@string/replies_summary"			
+		android:checked="true"
+		android:defaultValue="true"
+		/>	
+		
+		<ListPreference
+		android:key="expireMode"
+		android:title="@string/expire_mode"
+		android:summary="@string/expire_mode_summary"
+		android:entries="@array/expireModeKeys"
+		android:entryValues="@array/expireModeValues"
+		android:dialogTitle="@string/expire_modes_dialog_title"
+		android:defaultValue="604800000"
+		/>
+	</PreferenceScreen>
+	
+	<PreferenceScreen 
+		android:title="@string/category_posting"
+		android:summary="@string/summary_posting_screen"
+	>
+	
+		<ListPreference
+		android:key="postCharset"
+		android:title="@string/post_charset_title"
+		android:summary="@string/post_charset_summary"  
+		android:entries="@array/postCharsetKeys" 
+		android:entryValues="@array/postCharsetValues" 
+		android:dialogTitle="@string/post_charset_dialog_title" 
+		android:defaultValue="ISO8859-15" 
+		/>
+		
+		<CheckBoxPreference
+		android:key="useQuotingView"
+		android:id="@+id/preference_usequoter"
+		android:title="@string/quote_title"
+		android:summary="@string/quote_summary"			
+		android:checked="true"
+		android:defaultValue="true"
+		/>
+		
+		<CheckBoxPreference
+		android:key="replyCursorPositionStart"
+		android:id="@+id/preference_replyCursorStart"
+		android:title="@string/replycursor_title"
+		android:summary="@string/replycursor_summary"			
+		android:checked="false"
+		android:defaultValue="false"
+		/>		
+		
+		 <ListPreference  
+		 android:key="multipleFollowup"  
+		 android:title="@string/followup_title"  
+		 android:summary="@string/followup_summary"  
+		 android:entries="@array/followupOptionKeys"  
+		 android:entryValues="@array/followupOptionValues"  
+		 android:defaultValue="ASK"
+		 android:dialogTitle="@string/followup_dialog_title" />
+		 
+		<EditTextPreference
+		android:key="authorline"
+		android:id="@+id/preference_authorline"
+		android:title="@string/quotestring_title"
+		android:summary="@string/quotestring_summary"
+		android:dialogTitle="@string/quotestring_dialog_title"
+		android:dialogMessage="@string/quotestring_dialog_message"
+		android:singleLine="false"	
+		android:defaultValue="@string/default_quote_header"
+		/>		  		
+
+		<CheckBoxPreference
+		android:key="postDirectlyInOfflineMode"
+		android:id="@+id/preference_postDirectly"
+		android:title="@string/offlinemode_title"
+		android:summary="@string/offlinemode_summary"			
+		android:checked="true"
+		android:defaultValue="true"
+		/>	
+		
+		
+		
+		
+	</PreferenceScreen>
+	
+	<PreferenceScreen
+		android:title="@string/preference_enable_notif_title"		
+	>
+		<CheckBoxPreference
+		android:key="enableNotifications"
+		android:id="@+id/preference_enable_notifications"
+		android:title="@string/preference_enable_notif_title"
+		android:summary="@string/preference_enable_notif_summary"			
+		android:checked="false"
+		android:defaultValue="false"
+		/>
+		
+		<ListPreference
+		android:key="notifPeriod"
+		android:title="@string/pref_notif_period"		  
+		android:entries="@array/notifPeriodKeys" 
+		android:entryValues="@array/notifPeriodValues" 
+		android:dialogTitle="@string/pref_notif_period"
+		android:dependency="enableNotifications" 
+		android:defaultValue="1800000"
+		/>	
+		
+		<CheckBoxPreference
+		android:key="notif_useSound"
+		android:id="@+id/preference_notif_useSound"
+		android:title="@string/preference_useSound_title"					
+		android:checked="true"
+		android:dependency="enableNotifications"	
+		android:defaultValue="true"
+		/>
+		
+		<CheckBoxPreference
+		android:key="notif_useVibration"
+		android:id="@+id/preference_notif_useVibration"
+		android:title="@string/preference_useVibration_title"					
+		android:checked="true"
+		android:dependency="enableNotifications"	
+		android:defaultValue="true"
+		/>
+		
+		<CheckBoxPreference
+		android:key="notif_useLight"
+		android:id="@+id/preference_notif_useLight"
+		android:title="@string/preference_useLight_title"					
+		android:checked="true"
+		android:dependency="enableNotifications"
+		android:defaultValue="true"	
+		/>
+		
+		<CheckBoxPreference
+		android:key="notif_wifiOnly"
+		android:id="@+id/preference_notif_wifiOnly"
+		android:title="@string/preference_wifiOnly"					
+		android:checked="false"
+		android:dependency="enableNotifications"
+		android:defaultValue="true"	
+		/>
+		
+	</PreferenceScreen>
+
+	
+</PreferenceScreen>

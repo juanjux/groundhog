@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="bottom"
+	>
+
+	<!--  Layout del mensaje completo -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.95" 
+		>
+		
+
+		<!--  Layout horizontal de Grupo -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:background="#cccccc"
+			android:layout_weight="0.1">
+			
+			<TextView android:id="@+id/text_grouplabel"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="@string/groupscolon" 
+				android:textStyle="italic"
+				android:textColor="#000000" 
+				android:textSize="6pt"/>
+				
+			<EditText android:id="@+id/edit_groups" 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:textStyle="italic"
+				android:textColor="#000000" 
+				android:scrollHorizontally="true"
+				android:singleLine="true" 
+				android:textSize="6pt" />
+		</LinearLayout>
+
+		<!--  Layout horizontal de Subject -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:background="#cccccc"
+			android:padding="3px"
+			android:layout_weight="0.1">
+			
+			<TextView android:id="@+id/text_subjectlabel"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="@string/subjectcolon" 
+				android:textStyle="italic"
+				android:textColor="#000000" 
+				android:textSize="6pt"/>
+				
+			<EditText android:id="@+id/edit_subject"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:textStyle="italic" 
+				android:textColor="#000000"
+				android:scrollHorizontally="true" 
+				android:singleLine="true"
+				android:textSize="6pt" 
+				android:capitalize="sentences" />
+		</LinearLayout>
+
+		<!--  Text body -->
+		<EditText android:id="@+id/edit_body" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" 
+			android:scrollbars="vertical"
+			android:gravity="left" 
+			android:autoText="true"
+			android:capitalize="sentences" 
+			android:layout_weight="0.8" 
+		/>
+
+	</LinearLayout> <!-- Message Layout -->
+	
+	<!--  Layout horizontal para los botones -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.05"
+		>
+			
+		<Button
+			android:id="@+id/btn_send"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/send"			
+			android:layout_weight="1"
+		/>
+		<Button
+			android:id="@+id/btn_discard"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"			
+			android:text="@string/discard"	
+			android:layout_weight="1"
+		/>		
+		
+	</LinearLayout>	
+
+</LinearLayout> <!-- Top level layout -->

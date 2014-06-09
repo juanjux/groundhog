@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/msglist_item_menu_markthreadread"
+  android:orderInCategory="1"
+android:title="@string/msglist_mark_thread_read"/>
+
+<item android:id="@+id/msglist_item_menu_markthreadunread"
+  android:orderInCategory="2"
+android:title="@string/msglist_mark_thread_unread"/>
+
+<item android:id="@+id/msglist_item_menu_starthread"
+  android:orderInCategory="3"
+android:title="@string/msglist_star_thread"/>
+
+<item android:id="@+id/msglist_item_menu_ignorethread"
+  android:orderInCategory="4"
+android:title="@string/msglist_ban_thread"/>
+
+<item android:id="@+id/msglist_item_menu_banuser"
+  android:orderInCategory="5"
+android:title="@string/msglist_ban_author"/>
+
+<item android:id="@+id/catchup_single_group"
+  android:orderInCategory="6"
+android:title="@string/catchup_menu"/>
+
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+<drawable name="color_white">#ffffffff</drawable>
+<drawable name="color_black">#ff000000</drawable>
+<drawable name="solid_red">#f00</drawable>
+<drawable name="solid_blue">#000099</drawable>
+<drawable name="light_blue">#0000CC</drawable>
+<drawable name="solid_green">#f0f0</drawable>
+</resources>

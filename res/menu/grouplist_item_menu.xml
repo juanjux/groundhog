@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/grouplist_item_menu_marktallread"
+  android:orderInCategory="1" android:title="@string/mark_all_read"/>
+
+<item android:id="@+id/grouplist_item_menu_unsubscribe"
+  android:orderInCategory="2"
+android:title="@string/unsubscribe_group"/>
+
+<item
+android:orderInCategory="3"
+android:icon="@android:drawable/ic_media_ff"
+android:id="@+id/grouplist_catchup_server" android:title="@string/catchup_menu"/>
+
+
+</menu>

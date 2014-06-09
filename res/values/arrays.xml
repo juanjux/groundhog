@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="followupOptionKeys">
+        <item>Ask</item>
+        <item>All groups</item>
+        <item>Current group only</item>
+</string-array>
+    
+<string-array name="followupOptionValues">
+        <item>ASK</item>
+        <item>ALL</item>
+        <item>CURRENT</item>
+</string-array>
+
+
+<string-array name="postCharsetKeys">
+        <item>UTF-8</item>
+        <item>Big5</item>
+        <item>Big5-HKSCS</item>
+        <item>ISO8859-1</item>
+        <item>ISO8859-2</item>
+        <item>ISO8859-3</item>
+        <item>ISO8859-4</item>
+        <item>ISO8859-5</item>
+        <item>ISO8859-6</item>
+        <item>ISO8859-7</item>
+        <item>ISO8859-8</item>
+        <item>ISO8859-9</item>
+        <item>ISO8859-13</item>
+        <item>ISO8859-15</item>
+        <item>KOI8-R</item>
+        <item>EUC-CN</item>
+        <item>EUC-JP</item>
+        <item>EUC-KR</item>
+        <item>EUC-TW</item>
+        <item>ISO2022-CN</item>
+        <item>ISO2022-JP</item>
+        <item>ISO2022-KR</item>
+        <item>ISO2022-CN-CNS</item>
+        <item>ISO2022-CN-GB</item>
+        <item>ASCII</item>
+
+</string-array>
+    
+<string-array name="postCharsetValues">
+        <item>UTF-8</item>
+        <item>Big5</item>
+        <item>Big5_HKSCS</item>
+        <item>ISO8859_1</item>
+        <item>ISO8859_2</item>
+        <item>ISO8859_3</item>
+        <item>ISO8859_4</item>
+        <item>ISO8859_5</item>
+        <item>ISO8859_6</item>
+        <item>ISO8859_7</item>
+        <item>ISO8859_8</item>
+        <item>ISO8859_9</item>
+        <item>ISO8859_13</item>
+        <item>ISO8859_15</item>
+        <item>KOI8_R</item>
+        <item>EUC_CN</item>
+        <item>EUC_JP</item>
+        <item>EUC_KR</item>
+        <item>EUC_TW</item>
+        <item>ISO2022CN</item>
+        <item>ISO2022JP</item>
+        <item>ISO2022KR</item>
+        <item>ISO2022_CN_CNS</item>
+        <item>ISO2022-CN-GB </item>
+        <item>ASCII</item>       
+</string-array>
+
+<string-array name="expireModeKeys">
+	<item>1 day</item>
+	<item>1 week</item>
+	<item>1 month</item>
+	<item>Never(manually)</item>
+</string-array>
+
+<!--  Times in miliseconds that a read messages takes to be considered expirable -->
+<!--  0 = only manually -->
+<string-array name="expireModeValues">
+	<item>86400000</item>
+	<item>604800000</item>
+	<item>2592000000</item>
+	<item>0</item>
+</string-array>
+
+<string-array name="notifPeriodKeys">
+	<item>15 minutes</item>
+	<item>30 minutes</item>
+	<item>1 hour</item>
+	<item>12 hours</item>
+	<item>1 day</item>
+</string-array>
+
+<string-array name="notifPeriodValues">
+	<item>900000</item>
+	<item>1800000</item>
+	<item>3600000</item>	
+	<item>43200000</item>
+	<item>86400000</item>
+</string-array>
+
+</resources>

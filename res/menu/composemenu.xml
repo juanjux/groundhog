@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/compose_menu_send"
+  android:title="@string/send"
+  android:orderInCategory="1"
+  android:icon="@android:drawable/ic_menu_send"
+  />
+
+<item android:id="@+id/compose_menu_cancel"
+  android:orderInCategory="2"
+  android:icon="@android:drawable/ic_menu_close_clear_cancel"
+   android:title="@string/discard"/>
+   
+<item android:title="@string/compose_increasesize"
+    android:id="@+id/compose_menu_bigtext"
+    android:icon="@android:drawable/arrow_up_float"
+    android:orderInCategory="3"/>
+    
+<item android:title="@string/compose_decreasesize"
+    android:id="@+id/compose_menu_smalltext"
+    android:icon="@android:drawable/arrow_down_float" 
+    android:orderInCategory="4"/>
+    
+<item android:id="@+id/compose_menu_deletetext"
+  android:title="@string/compose_deletetext"
+  android:orderInCategory="5"
+  android:icon="@android:drawable/ic_input_delete"
+   />     
+    
+<item android:title="@string/compose_changue_post_charset" 
+	android:id="@+id/compose_menu_charset"
+	android:icon="@android:drawable/ic_menu_sort_alphabetically"
+	android:orderInCategory="6"/>    
+</menu>

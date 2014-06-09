@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  Layout principal vertical -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_help_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:textColor="#000000"
+	android:background="#FFFFFF"
+    >
+
+	<WebView 
+		android:id="@+id/help_content"
+		android:layout_width="fill_parent"		
+		android:layout_height="fill_parent"
+        android:padding="3px"
+        android:layout_weight="1"
+	/>
+	
+	<!--  Layout horizontal del boton -->
+
+	<Button
+		android:id="@+id/btn_close"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:text="@string/close"
+		android:layout_weight="9"
+	/>				
+		
+</LinearLayout>

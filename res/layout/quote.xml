@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:padding="0px"
+    >	
+	    	
+	<TextView
+		android:id="@+id/topbar"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:textAppearance="?android:attr/textAppearanceLarge"
+  		android:singleLine="true"
+  		android:text="@string/select_quote"
+  		android:textColor="#ffffffff"
+  		android:background="@drawable/solid_blue"
+  		android:padding="0px"
+  		android:paddingBottom="3px"
+  		android:layout_marginBottom="12px"
+  		android:gravity="center_horizontal"
+	/>	    	
+	    	
+	<ListView
+	android:id="@+id/list_quotelines"
+	android:layout_width="fill_parent"		
+	android:layout_height="wrap_content"
+	android:layout_weight="0.90" 
+    android:padding="3px"		
+	/>
+	
+	<!--  Layout horizontal para los botones -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.05" 
+		android:padding="3px"
+		>
+			
+		<Button
+			android:id="@+id/btn_all"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/all"			
+			android:layout_weight="1"
+		/>
+		<Button
+			android:id="@+id/btn_none"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"			
+			android:text="@string/none"	
+			android:layout_weight="1"
+		/>		
+
+
+	</LinearLayout>		
+	
+	<Button
+		android:id="@+id/btn_quoting_done"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/done"
+		android:layout_weight="0.05"
+		android:paddingBottom="3px"
+	/>	
+
+
+</LinearLayout>

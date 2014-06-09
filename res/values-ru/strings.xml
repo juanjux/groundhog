@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+<string name="app_name">Groundhog</string>
+<string name="done">Выполнено</string>
+<string name="groupscolon">Группы: </string>
+<string name="subjectcolon">Тема: </string>
+<string name="authorcolon">Автор: </string>
+<string name="datecolon">Дата: </string>
+<string name="prev">Назад</string>
+<string name="next">Вперёд</string>
+<string name="server_address_title">Адрес Сервера</string>
+<string name="server_address_summary">Нажмите для ввода адреса сервера</string>
+<string name="server_address_dialog_title">Адрес сервера:</string>
+<string name="server_address_dialog_message">Введите адрес сервера новостей (без nntp://)</string>
+<string name="server_port_title">Порт Сервера</string>
+<string name="server_port_summary">Нажмите для ввода порта сервера</string>
+<string name="server_port_dialog_title">Порт сервера:</string>
+<string name="server_need_login_title">Необходима авторизация</string>
+<string name="login_name_title">Логин</string>
+<string name="login_name_summary">Нажмите для ввода логина</string>
+<string name="login_name_dialog_title">Введите логин</string>
+<string name="pass_title">Пароль</string>
+<string name="pass_summary">Нажмите для ввода пароля</string>
+<string name="pass_dialog_title">Введите пароль</string>
+<string name="maxfetch_title">Кол-во сообщений для загрузки</string>
+<string name="maxfetch_summary">Нажмите для ввода макс. кол-ва сообщений для загрузки</string>
+<string name="maxfetch_dialog_title">Макс. загрузка</string>
+<string name="name_title">Имя</string>
+<string name="name_summary">Имя для использования в сообщениях</string>
+<string name="name_dialog_title">Введите имя</string>
+<string name="email_title">Email</string>
+<string name="email_summary">Email для использования в сообщениях (обязательное поле, но можно указать несуществующий адрес)</string>
+<string name="email_dialog_title">Введите email</string>
+<string name="post_charset_title">Кодировка при написании</string>
+<string name="post_charset_summary">Кодировка, используемая при написании сообщений</string>
+<string name="post_charset_dialog_title">Выберите кодировку</string>
+<string name="read_charset_title">Кодировка для чтения</string>
+<string name="read_charset_summary">Кодировка, используемая при написании чтении сообщений</string>
+<string name="read_charset_dialog_title">Выберите кодировку</string>
+<string name="signature_title">Подпись</string>
+<string name="signature_summary">Введите подпись (опционально)</string>
+<string name="signature_dialog_title">Введите подпись</string>
+<string name="category_connection">Соединение</string>
+<string name="category_userinfo">Пользовательская информация</string>
+<string name="category_grouplist">Список групп</string>
+<string name="replies_title">Выделять ответы мне</string>
+<string name="replies_summary">Подсвечивать ответы на мои сообщения</string>
+<string name="category_posting">Составление сообщений</string>
+<string name="posting">Составление сообщений</string>
+<string name="quote_title">Ипользовать выбор цитат</string>
+<string name="quote_summary">Использовать экран для выбора цитируемых частей сообщения</string>
+<string name="replycursor_title">Курсор в начало при ответе</string>
+<string name="replycursor_summary">Если включено, то курсор при ответе будет перемещён в начало сообщения</string>
+<string name="followup_title">Ответ в несколько групп</string>
+<string name="followup_summary">При ответе на сообщение, отправленное в несколько групп, отвечать в...</string>
+<string name="followup_dialog_title">Отвечать в...</string>
+<string name="quotestring_title">Шапка при ответе</string>
+<string name="quotestring_summary">Нажмите для задания шапки при ответе на сообщение</string>
+<string name="quotestring_dialog_title">Введите шапку</string>
+<string name="quotestring_dialog_message">Введите текст, который будет подставлен первой строкой перед цитатой при ответе на сообщение. Используйте теги [date] и [user], они будут заменены соответствующими значениями. Например по умолчанию шапка такая: On [date], [user] wrote:</string>
+<string name="offlinemode_title">Постинг в оффлайне</string>
+<string name="offlinemode_summary">Если включено, то сообщения, набранные в режиме оффлайн будут отправлены при входе в онлайн</string>
+<string name="close">Закрыть</string>
+<string name="btn_search_groups">Поиск групп</string>
+<string name="statuscolon">Статус:</string>
+<string name="starting_d">Начало...</string>
+<string name="cancel">Отмена</string>
+<string name="banned_menu_select">Выбрать всё</string>
+<string name="banned_menu_deselect">Отказаться от всего</string>
+<string name="discard">Отказаться</string>
+<string name="compose_deletetext">Удалить весь текст</string>
+<string name="compose_increasesize">Увеличить размер текста</string>
+<string name="compose_decreasesize">Уменьшить размер текста</string>
+<string name="compose_changue_post_charset">Сменить кодировку исходящих сообщений</string>
+<string name="mark_all_read">Отметить всё как прочитанное</string>
+<string name="unsubscribe_group">Отписаться от группы</string>
+<string name="grouplist_getall">Получить все сообщения</string>
+<string name="grouplist_add_groups">Добавить группы</string>
+<string name="grouplist_set_offline">Перейти в режим оффлайн</string>
+<string name="show_help">Показать справку</string>
+<string name="global_settings">Настройки</string>
+<string name="clear_cache">Очистить кеш</string>
+<string name="msglist_mark_thread_read">Отметить тред как прочтённый</string>
+<string name="msglist_mark_thread_unread">Отметить тред как непрочтённый</string>
+<string name="msglist_star_thread">Выделение треда звездой</string>
+<string name="msglist_ban_thread">Забанить тред</string>
+<string name="msglist_ban_author">Забанить автора</string>
+<string name="msglist_newpost">Новое сообщение</string>
+<string name="msglist_group_list">Список групп</string>
+<string name="msglist_refresh">Обновить</string>
+<string name="msglist_getnew">Получить новые сообщения</string>
+<string name="msglist_markread">Отметить все как прочитанные</string>
+<string name="msglist_manage_banned">Управление забаненными тредами</string>
+<string name="msglist_manage_banned_users">Управление забаненными авторами</string>
+<string name="msglist_change_read_charset">Сменить кодировку сообщений при чтении</string>
+<string name="reply">Ответить</string>
+<string name="keep_unread">Оставить непрочитанным</string>
+<string name="forward">Переслать по Email</string>
+<string name="ban_author">Забанить автора</string>
+<string name="toggle_favorite">Избранное</string>
+<string name="increase_text_size">Увеличить размер текста</string>
+<string name="decrease_text_size">Уменьшить размер текста</string>
+<string name="showheaders">Показать/спрятать полные заголовки</string>
+<string name="nothing_to_do">Тут ничего нет</string>
+<string name="there_are_no_bans">Баны отсутствуют</string>
+<string name="return_">Вернуться</string>
+<string name="encoding">Кодировка</string>
+<string name="change_encoding_tip"> (её можно сменить в меню &amp; Кодировка)</string>
+<string name="posting_message">Составление сообщения...</string>
+<string name="empty_groups">пустые группы!</string>
+<string name="must_select_group">&quot;Вы должны выбрать какие-нибудь группы в соответствующем поле!</string>
+<string name="error_posting">Ошибка отправки сообщения!</string>
+<string name="group_offline_mode">Список групп (режим оффлайн)</string>
+<string name="group_online_mode">Список групп (режим онлайн)</string>
+<string name="group_headers">Заголовки групп</string>
+<string name="server_change_detected">В связи со сменой сервера старые заголовки сообщений были удалены</string>
+<string name="deleting_d">Удаление...</string>
+<string name="unsubscribing_deleting_caches">Отмена подписки и очищение кеша...</string>
+<string name="marking_read_deleting_caches">Отмечание сообщений как прочитанных и удаление из кеша прочитанных...</string>
+<string name="sync_messages">Синхронизация</string>
+<string name="set_online_mode">Установить режим онлайн</string>
+<string name="get_all_headers">Получить все заголовки</string>
+<string name="set_offline_mode">Установить режим оффлайн</string>
+<string name="confirm_delete_cache">Вы действительно хотите удалить кеш? Все непрочитанные сообщения будут удалены!</string>
+<string name="group_menu">Меню групп</string>
+<string name="error">Ошибка</string>
+<string name="mark_read_question">Отметить сообщения в {0} как прочтённые?</string>
+<string name="yes">Да</string>
+<string name="no">Нет</string>
+<string name="unsubscribe_question">Отписаться от {0}?</string>
+<string name="unsubscribe">Отписаться</string>
+<string name="get_new">Получить новые</string>
+<string name="warning_online_to_offline_sync">Внимание: в группе есть сообщение с заголовками, но без тела (загружено в режиме онлайн). Получить полные версии? (при отказе полная версия будет всё равно получена при первом клике на сообщении, даже в режиме оффлайн)</string>
+<string name="yes_sync">Да (синх.)</string>
+<string name="no_enter_anyway">Нет (всё равно зайти)</string>
+<string name="fetch_headers_question">Получить новые заголовки в {0}?</string>
+<string name="asking_new_articles">Запрос новых сообщений</string>
+<string name="full_messages">полные сообщения</string>
+<string name="headers">заголовки</string>
+<string name="getting_something">Получение {0}</string>
+<string name="interrupted">Прервано</string>
+<string name="auth_error">Ошибка авторизации</string>
+<string name="posting_pending_messages">Идёт отправка сообщений</string>
+<string name="finished">Завершено</string>
+<string name="error_post_check_settings">Ошибка при получении или отправке сообщений. Пожалуйста, проверьте настройки соединения:\n</string>
+<string name="download_interrupted_sleep">Загрузка прервана (возможно, Android отправил меня в сон)</string>
+<string name="error_authenticating_check_pass">Ошибка авторизации. Пожалуйста, проверьте свои логин и пароль:\n</string>
+<string name="loading_help_d">Загрузка справки...</string>
+<string name="at_first_message">Вы уже на первом сообщении</string>
+<string name="no_more_messages">В группе больше нет сообщений</string>
+<string name="open_save_attach_question">Хотите открыть или сохранить вложение?</string>
+<string name="open">Открыть</string>
+<string name="save">Сохранить</string>
+<string name="saved_to">Сохранено в </string>
+<string name="attachment">Вложение</string>
+<string name="could_not_save_colon">Невозможно сохранить: </string>
+<string name="stored_outbox_send_next_sync">Сообщение сохранено в исходящие, отправка будет выполнена при синхронизации</string>
+<string name="message_sent">Сообщение отправлено</string>
+<string name="message_discarded">Сообщение отклонено</string>
+<string name="reload_tosee_unbanned_authors">Чтобы увидеть разбаненных авторов, нажмите Перезагрузить в списке сообщений</string>
+<string name="nothing_to_unban">Разбанивать некого</string>
+<string name="cant_reply_no_header_data">Невозможно ответить; заголовки отсутствуют</string>
+<string name="message_marked_unread">Сообщение отмечено как непрочитанное</string>
+<string name="author_banned_reload_tohide">Автор забанен, нажмите Перезагрузить в списке сообщений, чтобы его спрятать</string>
+<string name="cant_ban_no_header_data">Невозможно забанить автора; заголовки отсутствуют</string>
+<string name="followup_multigroup_question">Сообщение отправлено более, чем в одну группу. Ответить во все или только в текущую группу? Список этих групп:\n</string>
+<string name="followup_all_groups">Во все</string>
+<string name="followup_current_group">В текущую</string>
+<string name="must_fill_name_email_goto_settings">Вы должны заполнить имя и email (можно ввести недействительный) в настройках (в секции Пользовательская информация). Перейти в настройки сейчас?</string>
+<string name="user_info_unset">Пользовательская информация отсутствует</string>
+<string name="cant_make_favorite_no_header">Невозможно сделать избранным; заголовки отсутствуют</string>
+<string name="fetching_body">Получение тела сообщения</string>
+<string name="could_not_fetch_header">Невозможно получить заголовок сообщения</string>
+<string name="requesting_message">Запрос сообщения</string>
+<string name="message">Сообщение</string>
+<string name="error_loading_kept_unread">Ошибка загрузки тела сообщение (сообщение оставлено непрочитанным)</string>
+<string name="error_loading_kept_unread_long">Во время загрузки сообщения произошла ошибка. Пожалуйста, проверьте настройки соединения и подключение к сети (сообщение оставлено непрочитанным).</string>
+<string name="error_saving_kept_unread">Ошибка сохранения сообщения (сообщение оставлено непрочитанным)</string>
+<string name="error_saving_kept_unread_long">Во время сохранения сообщения на sd-карту или диск произошла ошибка. Пожалуйста, проверьте носитель (сообщение оставлено непрочитанным)</string>
+<string name="server_doesnt_have_message">Данное сообщение отсутствует на сервере.</string>
+<string name="server_doesnt_have_message_long">[На сервере данного сообщения больше нет, возможно, оно слишком старое или было признано спамом]</string>
+<string name="new_subject">Новая тема: \n</string>
+<string name="no_unread_use_sync">Непрочитанные сообщения отсутствуют, для получения нажмите Меню-&gt;Синхронизация</string>
+<string name="article_menu">Меню сообщения</string>
+<string name="thread_ignore">Дальнейший тред с обсуждением будет игнорироваться, используйте Меню-&gt;Больше-&gt;Управление забаненными тредами для отказа от игнорирования</string>
+
+<string name="future_unignored_willbe_fetched">В дальнейшем будут загружены сообщения в треде, который более не игнорируется</string>
+<string name="deleting_messages_caches">Удаление прочитанных сообщений и кеша</string>
+<string name="threading_messages">Создание тредов</string>
+<string name="messages">Сообщения</string>
+<string name="add_group">Добавить группу</string>
+<string name="subscribe_question">Подписаться на группу {0}?</string>
+<string name="already_subscribed_long">Вы уже подписаны на {0}!</string>
+<string name="already_subscribed_excl">Уже подписано!</string>
+<string name="subscribed_ok">Вы подписались на {0}; используйте кнопку BACK для перехода к списку групп</string>
+<string name="too_short_excl">Слишком мало символов!</string>
+<string name="too_short_three_chars">Текст для поиска должен быть не менее 3 символов</string>
+<string name="not_configured">Не настроено</string>
+<string name="error_retrieving_check_connection">При получении результатов возникла ошибка. Проверьте настройки соединения (особенно адрес и порт сервера, а также логин и пароль) и уровень сигнала. Перейти в настройки?</string>
+<string name="error_auth_check_pass_go_settings">При авторизации произошла ошибка; пожалуйста, проверьте свои логин и пароль. Перейти в настройки?</string>
+<string name="go_to_settings">Перейти в настройки</string>
+<string name="hostname_not_configured_goto_settings">Адрес сервера новостей не указан. Хотите настроить программу сейчас?</string>
+<string name="offline_group_has_no_messages_sync">Нет непрочитанных сообщений в группе, запустить синхронизацию для получения новых?</string>
+<string name="subscribe_to_groups">Подписаться на группы</string>
+<string name="banned_threads">Забаненные треды</string>
+<string name="banned_users">Забаненные авторы</string>
+<string name="select_quote">Отметте текст для цитирования</string>
+<string name="all">Все</string>
+<string name="none">Ничего</string>
+<!-- Category header on the settings of the options related to reading -->
+<string name="category_reading">Чтение</string>
+
+<!-- On the summary of a settings section which is mandatory -->
+<string name="section_mandatory">Этот раздел обязательный</string>
+
+<!-- On the summary of the reading options in the settings -->
+<string name="options_reading">Настройки чтения</string>
+
+<!-- On the settings "server needs login" checkbox -->
+<string name="server_need_login_summary">Включите, если серверу необходимы логин и пароль</string>
+
+<!-- On the settings, summary for the User Info section -->
+<string name="summary_userinfo">Пользовательская информация (имя, email и т.д.)</string>
+
+<!--  New on 1.13.0 -->
+       <!-- Notifications category options at settings -->
+       <string name="preference_enable_notif_title">Уведомления</string>
+       <string name="preference_enable_notif_summary">Проверять новые сообщения и уведомлять</string>
+       <string name="preference_wifiOnly">Только при активном WIFI</string>
+       <string name="pref_notif_period">Интервал проверки</string>
+       <string name="preference_useSound_title">Воспроизвести звук</string>
+       <string name="preference_useVibration_title">Вибро</string>
+       <string name="preference_useLight_title">Индикация</string>
+       <string name="summary_posting_screen">Парамеры постинга сообщений</string>
+
+       <!-- This is shown on Android bar notifications area (when expanded) -->
+       <string name="new_messages">Новые сообщения на nntp-сервере</string>
+
+<!-- New on 1.13.1 -->
+       <!-- User can't currently input more than one word/wildcar on the
+subscribe screen search textbox: -->
+       <string name="only_one_word_title">Слишком много слов</string>
+       <string name="only_one_word">В данный момент разрешено только 1 слово (или маска)</string>
+
+</resources>

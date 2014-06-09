@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:padding="0px"
+	
+    >		
+    
+    <LinearLayout 
+    	android:id="@+id/layout_topbar"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="0px"
+    	android:paddingBottom="3px"
+    	android:background="@drawable/solid_blue"
+    	android:layout_marginBottom="12px"
+    	android:gravity="left"
+    	
+    >
+		<ImageButton
+			android:id="@+id/btn_gogroups"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:padding="3px"
+			android:paddingLeft="0px"
+			android:src="@drawable/blue_left_arrow_small"
+			android:layout_weight="0.05"
+			android:layout_gravity="left"
+			android:background="@drawable/solid_blue"
+		/>
+		
+		<TextView
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:textAppearance="?android:attr/textAppearanceLarge"
+    		android:padding="3px"
+    		android:singleLine="true"
+    		android:text="@string/subscribe_to_groups"
+    		android:textColor="#ffffffff"
+    		android:layout_weight="0.95"
+			android:gravity="center_horizontal"
+		/> 
+    </LinearLayout>
+		
+	<EditText
+		android:id="@+id/searchGroups"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:singleLine="true"
+		android:layout_margin="3px"
+	/>
+	
+	<Button
+		android:id="@+id/btn_search"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/btn_search_groups"
+	/>
+	    	
+	<ListView
+		android:id="@+id/search_results"
+		android:layout_width="fill_parent"		
+		android:layout_height="0dip"
+	    android:layout_weight="1"
+	/>
+
+</LinearLayout>

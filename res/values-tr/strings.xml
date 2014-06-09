@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Selam!</string>
+    <string name="app_name">Groundhog</string>
+<string name="done">Tamamlandı</string>
+<string name="groupscolon">Gruplar: </string>
+<string name="subjectcolon">Konu: </string>
+<string name="authorcolon">Gönderen: </string>
+<string name="datecolon">Tarih: </string>
+
+<string name="prev">Önceki</string>
+<string name="next">Sonraki</string>
+<string name="server_address_title">Sunucu adresi</string>
+<string name="server_address_summary">Sunucu adresi girmek için tıklayın</string>
+<string name="server_address_dialog_title">Sunucu Host adresi:</string>
+<string name="server_address_dialog_message">Haber grubunuzun adresini, "nntp://" kullanmadan girin. Bir haber grubuna üye değilseniz NewsTurkiye (http://newsturkiye.net) gibi ücretsiz bir sunucuya üye olabilirsiniz.</string>
+<string name="server_port_title">Port</string>
+<string name="server_port_summary">Sunucu portunu girmek için tıklayın</string>
+<string name="server_port_dialog_title">Port numarası:</string>
+
+<string name="server_need_login_title">Sunucu oturum açmayı gerektiriyor</string>
+<string name="login_name_title">Kullanıcı adı</string>
+<string name="login_name_summary">Sunucudaki kullanıcı adı girmek için tıklayın.</string>
+<string name="login_name_dialog_title">Kullanıcı adınız</string>
+<string name="pass_title">Parola</string>
+<string name="pass_summary">Sunucu parolanızı girmek için tıklayın.</string>
+<string name="pass_dialog_title">Parolanız</string>
+<string name="maxfetch_title">İndirilecek maksimum mesaj sayısı</string>
+<string name="maxfetch_summary">Bir grubu açtığınızda indirilmesini istediğiniz maksimum mesaj sayısı</string>
+
+<string name="maxfetch_dialog_title">Maksimum adet</string>
+<string name="name_title">İsim</string>
+<string name="name_summary">İletilerde kullanılacak isim</string>
+<string name="name_dialog_title">İsim giriniz</string>
+<string name="email_title">E-posta</string>
+<string name="email_summary">İletilerinizde görünecek E-posta adresi. (Zorunlu, ama gerçek olmak zorunda değil.)</string>
+<string name="email_dialog_title">E-posta giriniz.</string>
+<string name="post_charset_title">İletilerdeki karakter seti</string>
+<string name="post_charset_summary">Gönderilerinizde kullanılacak karakter seti</string>
+
+<string name="post_charset_dialog_title">Karakter seti seçiniz</string>
+<string name="read_charset_title">Okumalar için ön tanımlı karakter seti</string>
+<string name="read_charset_summary">Okumalar için ön tanımlı set</string>
+<string name="read_charset_dialog_title">Karakter seti seçiniz</string>
+<string name="signature_title">İmza</string>
+<string name="signature_summary">Bir imza belirleyebilirsiniz.</string>
+<string name="signature_dialog_title">İmza hazırla</string>
+<string name="category_connection">Bağlantı</string>
+<string name="category_userinfo">Kullanıcı bilgileri</string>
+
+<string name="category_grouplist">Grup listesi</string>
+<string name="replies_title">Benim gönderilerimi işaretle</string>
+<string name="replies_summary">Gönderilerime gelen cevapları işaretle</string>
+<string name="category_posting">Gönderim</string>
+<string name="posting">Gönderim</string>
+<string name="quote_title">Alıntı işareti kullan</string>
+<string name="quote_summary">Gönderilerde kolay alıntılama aracını kullan</string>
+<string name="replycursor_title">İmleci üstte başlat</string>
+<string name="replycursor_summary">Seçilirse, yazdığınız cevaplarda imleç alıntı yaptığınız metnin üstünde konumlanır.</string>
+
+<string name="followup_title">Çokllu takip</string>
+<string name="followup_summary">Çapraz iletilerde mesajın takibi..</string>
+<string name="followup_dialog_title">Takip...</string>
+<string name="quotestring_title">Alıntılama karakteri</string>
+<string name="quotestring_summary">Kişisel bir alıntılama karakteri tanımlamak için tıklayın.</string>
+<string name="quotestring_dialog_title">Satır ayarları</string>
+<string name="quotestring_dialog_message">Alıntı yaptığınız metnin üstünde görünmesini istediğiniz mesajı girin. [date] ve [user] ayraçlarını kullanabilirsiniz. Örnek:  "[date] tarihinde [user] kullanıcısı şunları yazmıştı.."</string>
+<string name="offlinemode_title">Çevrim dışı gönderim</string>
+<string name="offlinemode_summary">Seçilirse, internet bağlantısı sağlandığında ilk önce çevrim dışı iken postalanan iletiler gönderilecek.</string>
+
+<string name="close">Kapat</string>
+<string name="btn_search_groups">Grupları ara</string>
+<string name="statuscolon">Durum:</string>
+<string name="starting_d">Başlıyor...</string>
+<string name="cancel">İptal</string>
+<string name="banned_menu_select">Tümünü seç</string>
+<string name="banned_menu_deselect">Seçimleri kaldır</string>
+<string name="send">Gönder</string>
+<string name="discard">Vazgeç</string>
+
+<string name="compose_deletetext">Metnin tamamını sil</string>
+<string name="compose_increasesize">Yazı boyutunu büyüt</string>
+<string name="compose_decreasesize">Yazı boyutunu küçült</string>
+<string name="compose_changue_post_charset">Karakter setini değiştir</string>
+<string name="mark_all_read">Tümünü "Okundu" olarak işaretle</string>
+<string name="unsubscribe_group">Üyeliği kaldır</string>
+<string name="grouplist_getall">Tüm mesajları al</string>
+<string name="grouplist_add_groups">Grup ekle</string>
+<string name="grouplist_set_offline">Çevrim dışı ayarla</string>
+
+<string name="show_help">HızlıYardım \'ı görüntüle</string>
+<string name="global_settings">Ayarlar</string>
+<string name="clear_cache">Ön belleği temizle</string>
+<string name="msglist_mark_thread_read">Tüm ilmekleri "Okundu" olarak işaretle</string>
+<string name="msglist_mark_thread_unread">İlmeği "Okunmadı" durumuna getir</string>
+<string name="msglist_star_thread">İlmeğe Yıldız koy(ma)</string>
+<string name="msglist_ban_thread">İlmeği engelle</string>
+<string name="msglist_ban_author">Yazarı engelle</string>
+<string name="msglist_newpost">Yeni ileti</string>
+
+<string name="msglist_group_list">Grup listesi</string>
+<string name="msglist_refresh">Tazele</string>
+<string name="msglist_getnew">Yeni iletileri al</string>
+<string name="msglist_markread">Tümünü "Okundu" olarak işaretle</string>
+<string name="msglist_manage_banned">Engellenmiş ilmekleri yönet</string>
+<string name="msglist_manage_banned_users">Engellenmiş kullanıcıları yönet</string>
+<string name="msglist_change_read_charset">Okuma karakter setini değiştir</string>
+<string name="reply">Cevapla</string>
+<string name="keep_unread">"Okunmadı" olarak tut</string>
+
+<string name="forward">E-posta olarak ilet</string>
+<string name="ban_author">Yazarı engelle</string>
+<string name="toggle_favorite">Favori ekle</string>
+<string name="increase_text_size">Metin boyutunu büyüt</string>
+<string name="decrease_text_size">Metin boyutunu küçült</string>
+<string name="showheaders">E-posta başlıklarını göster(me)</string>
+<string name="nothing_to_do">Yapacak bir şey yok..</string>
+<string name="there_are_no_bans">Engellenenler</string>
+<string name="return_">Dön</string>
+
+<string name="encoding">Kodlama</string>
+<string name="change_encoding_tip"> &amp; Kodlama \'yı menü \'den değiştirebilirsiniz.</string>
+<string name="posting_message">Gönderiliyor...</string>
+<string name="empty_groups">Gruplar boş!</string>
+<string name="must_select_group">&quot; Grup seçmelisiniz!</string>
+<string name="error_posting">Gönderi hatası!</string>
+<string name="group_offline_mode">Grup Listesi (Çevrim dışı mod)</string>
+
+<string name="group_online_mode">Grup Listesi (Çevrim içi mod)</string>
+<string name="group_headers">Grup başlıkları</string>
+<string name="server_change_detected">Sunucuda değişiklik saptandı. Eski başlıklar silinmiştir..</string>
+<string name="deleting_d">Siliniyor...</string>
+<string name="unsubscribing_deleting_caches">Üyelik kaldırılarak ön bellek boşaltılıyor...</string>
+<string name="marking_read_deleting_caches">Tüm mesajlar "Okundu" olarak işaretlenip okunmuş mesajlar belleği boşaltılıyor..</string>
+<string name="sync_messages">İletileri eşle</string>
+<string name="set_online_mode">Çevrim içi mod</string>
+<string name="get_all_headers">Tüm başlıkları al</string>
+
+<string name="set_offline_mode">Çevrim dışı mod</string>
+<string name="confirm_delete_cache">Ön belleği temizlemek istiyor musunuz? Okunmamış tüm mesajlar silinecek!</string>
+<string name="group_menu">Grup menüsü</string>
+<string name="error">Hata</string>
+<string name="mark_read_question">Tüm mesajları "Okundu" olarak işaretlemek istiyor musunuz?</string>
+<string name="yes">Evet</string>
+<string name="no">Hayıt</string>
+<string name="unsubscribe_question">{0} grubundaki üyeliğinizi kaldırmak istiyor musunuz?</string>
+<string name="unsubscribe">Üyeliği kaldır</string>
+
+<string name="get_new">Yenileri al</string>
+<string name="warning_online_to_offline_sync">Uyarı: Grup başlıkları var, ancak içerik yok. İçeriği şimdi almak ister misiniz? (İstemezseniz, iletiler seçildikçe içerikleri yüklenecek)</string>
+<string name="yes_sync">Evet (Eşle)</string>
+<string name="no_enter_anyway">Hayır (Böyle kalsın)</string>
+<string name="fetch_headers_question">{0} grubu için yeni başlıkları almak istiyor musunuz?</string>
+<string name="asking_new_articles">Yeni konular sorgulanıyor..</string>
+<string name="full_messages">Tam mesaj</string>
+<string name="headers">başlıklar</string>
+<string name="getting_something">{0} alınıyor..</string>
+
+<string name="interrupted">Kesildi..</string>
+<string name="auth_error">Otorizasyon hatası..</string>
+<string name="posting_pending_messages">Bekletilen mesajlar gönderiliyor..</string>
+<string name="finished">Tamamlandı.</string>
+<string name="error_post_check_settings">Mesaj göndermede/almada bir sorun yaşandı. Bağlantı ayarlarınızı kontrol ediniz..:\n</string>
+<string name="download_interrupted_sleep">İndirme kesildi.. (Android uyku moduna geçmiş olmalı..)</string>
+<string name="error_authenticating_check_pass">Bağlantı kurulurken bir hata alındı.. Kullanıcı adı ve parolanızı kontrol ediniz..:\n</string>
+<string name="loading_help_d">Yardım yükleniyor...</string>
+<string name="at_first_message">Zaten ilk mesajdasınız..</string>
+
+<string name="no_more_messages">Grupta başka mesaj yok</string>
+<string name="open_save_attach_question">Eklentiyi kaydet veya aç</string>
+<string name="open">Aç</string>
+<string name="save">Kaydet</string>
+<string name="saved_to">Kaydet:</string>
+<string name="attachment">Eklenti</string>
+<string name="could_not_save_colon">Kaydedilemedi: </string>
+<string name="stored_outbox_send_next_sync">İleti Giden kutusunda saklandı.. Bir dahaki eşlemede gönderilecek.</string>
+<string name="message_sent">İleti gönderildi</string>
+
+<string name="message_discarded">Vazgeçildi.</string>
+<string name="reload_tosee_unbanned_authors">Yazar engellemelerini kaldırmak için Mesaj listesindeki yeniden yükle seçeneğini kullanın</string>
+<string name="nothing_to_unban">Kayıt bulunamadı</string>
+<string name="cant_reply_no_header_data">Cevaplanamıyor.. Başlık verisi yok.</string>
+<string name="message_marked_unread">İleti "Okunmadı" olarak işaretlendi.</string>
+<string name="author_banned_reload_tohide">Yazar engellendi. İletilerini gizlemek için mesajları yeniden yükleyin.</string>
+<string name="cant_ban_no_header_data">Yazar engellenemiyor. Başlık bilgisi bulunamadı.</string>
+<string name="followup_multigroup_question">Bu bir çapraz ileti.. Yalnızca şu anki grupta mı takip etmek istersiniz? Yoksa tüm gruplarda takip edilsin mi? Gruplar:\n</string>
+<string name="followup_all_groups">Tümü</string>
+
+<string name="followup_current_group">Şu anki</string>
+<string name="must_fill_name_email_goto_settings">Ayarlar menüsünden İsim ve E-posta alanlarını doldurmalısınız. E-posta adresi gerçek olmak zorunda değildir.. Ayarlar \'a gitmek ister misiniz?</string>
+<string name="user_info_unset">Kullanıcı bilgilerini boşalt</string>
+<string name="cant_make_favorite_no_header">Favori eklenemiyor. Başlık verisi yok.</string>
+<string name="fetching_body">Mesaj içeriği alınıyor..</string>
+<string name="could_not_fetch_header">Başlık(lar) sunucudan alınamadı.</string>
+<string name="requesting_message">Mesaj sorgulanıyor.</string>
+<string name="message">Mesaj</string>
+<string name="error_loading_kept_unread">Mesaj yüklenirken hata oluştu. İleti "Okunmadı" olarak saklanacak.</string>
+
+<string name="error_loading_kept_unread_long">Mesaj içeriği alınırken bir hata oluştu. Lütfen sunucu ayarlarınızı ve bağlantınızı kontrol ediniz..</string>
+<string name="error_saving_kept_unread">Mesaj kaydedilirken hata oluştu. (Mesaj "Okunmadı" olarak saklanacak"</string>
+<string name="error_saving_kept_unread_long">Mesaj hafıza kartı veya dahili belleğe kaydedilirken bir hata oluştu. Lütfen hafıza kartınızı kontrol edin.</string>
+<string name="server_doesnt_have_message">Mesaj sunucuda yok.</string>
+<string name="server_doesnt_have_message_long">[Bu mesaj artık sunucuda yok.. Çok eski ya da Spam olabilir..]</string>
+<string name="new_subject">Yeni konu: \n</string>
+<string name="no_unread_use_sync">Okunmamış mesaj yok.. Daha fazla mesaj için Menü-&gt; \'den Eşle yapın.</string>
+<string name="article_menu">Başlık Menüsü</string>
+
+<string name="thread_ignore">Sonraki mesajlar yok sayılacak. Menü-&gt;Daha-&gt; seçimi ile engellenmiş ilmekleri yönetebilirsiniz.</string>
+<string name="future_unignored_willbe_fetched">Engellemesi kaldırılan ilmekler için yeni mesajlar alınacak.</string>
+<string name="deleting_messages_caches">Okunmuş mesajlar ve bellek silinecek</string>
+<string name="threading_messages">Mesajlar ilmekleniyor</string>
+<string name="messages">Mesajlar</string>
+<string name="add_group">Grup ekle</string>
+<string name="subscribe_question">{0} grubuna üye olmak istiyor musunuz?</string>
+
+<string name="already_subscribed_long">{0} grubuna zaten üyesiniz!</string>
+<string name="already_subscribed_excl">Zaten üye olunmuş!</string>
+<string name="subscribed_ok">{0} grubuna üye oldunuz. Cihazınızın GERİ tuşuna basarak grup listesine dönebilirsiniz. </string>
+<string name="too_short_excl">Çok kısa!</string>
+<string name="too_short_three_chars">Arama metni en az 3 karakter içermelidir.</string>
+<string name="not_configured">Ayarlanmadı..</string>
+<string name="error_retrieving_check_connection">Sonuçlar alınamadı.. Bağlantı ayarlarınızı, özellikle de sunucu adresinizi ve kullanıcı bilgilerinizi kontrol ediniz.. Ayarlar \'a gitmek ister misiniz</string>
+<string name="error_auth_check_pass_go_settings">Sunucuya oturum açılamadı.. Kullanıcı adı ve parolanızı kontrol ediniz.. Ayarlar \'a gitmek ister misiniz?</string>
+<string name="go_to_settings">Ayarlara git</string>
+
+<string name="hostname_not_configured_goto_settings">Haber sunucunuzun adı tanımlanmamış.. Şimdi bir tanım yapmak ister misiniz?</string>
+<string name="group">Grup</string>
+<string name="offline_group_has_no_messages_sync">Grupta okunmamış mesaj yok. Yeni mesajlar için Eşleme yapmak ister misiniz?</string>
+<string name="subscribe_to_groups">Grup Üyelikleri</string>
+<string name="banned_threads">Engellenmiş ilmekler</string>
+<string name="banned_users">Engellenmiş kullanıcılar </string>
+<string name="select_quote">Alıntı yapılacak metin</string>
+<string name="all">Tümü</string>
+<string name="none">Hiç biri</string>
+
+</resources>

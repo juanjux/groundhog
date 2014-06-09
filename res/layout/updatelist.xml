@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget28"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+	<TextView
+	android:id="@+id/lblIntro"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/statuscolon"
+	android:textSize="25sp"
+	>
+	</TextView>
+	
+	<TextView
+	android:id="@+id/lblStatus"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textSize="20sp"
+	android:text="@string/starting_d"
+	android:layout_marginTop="15px"
+	android:layout_marginBottom="15px"
+	>
+	</TextView>
+		
+	<ProgressBar
+	android:id="@+id/progress"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="15px"
+	>
+	</ProgressBar>
+	
+	<Button
+	android:id="@+id/btn_cancel"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/cancel"
+	/>	
+</LinearLayout>

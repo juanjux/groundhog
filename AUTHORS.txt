@@ -1,0 +1,4 @@
+Groundhog Newsreader is written and maintained by Juanjo Alvarez <juanjux@gmail.com> Most of the code with some
+exceptions (see below) is GPL-licensed.
+
+It uses some libraries by the Apache Foundation. The code uses the Apache license.

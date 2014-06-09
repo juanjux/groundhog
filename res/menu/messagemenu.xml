@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item 
+	android:orderInCategory="1" 
+	android:id="@+id/message_menu_reply" 
+	android:icon="@android:drawable/ic_menu_revert" android:title="@string/reply"/>
+	
+	<item android:id="@+id/message_menu_markunread" 
+	android:orderInCategory="2" 
+	android:icon="@android:drawable/ic_menu_add" android:title="@string/keep_unread"/>
+	
+	<item android:id="@+id/message_menu_forward"
+	android:orderInCategory="3" 
+	android:icon="@android:drawable/ic_menu_send" android:title="@string/forward"/>
+	
+	<item android:id="@+id/message_menu_ban"
+	android:orderInCategory="4" 
+	android:icon="@android:drawable/ic_menu_mylocation" android:title="@string/ban_author"/>
+	
+	<item android:orderInCategory="5" 
+	android:icon="@drawable/love_big_off" 
+	android:id="@+id/message_menu_favorite" android:title="@string/toggle_favorite"></item>
+	
+	<item android:id="@+id/message_menu_bigtext" 
+	android:orderInCategory="6"  android:title="@string/increase_text_size"/>
+	
+	<item android:id="@+id/message_menu_smalltext" 
+	android:orderInCategory="7"  android:title="@string/decrease_text_size"/>
+	
+	<item android:id="@+id/message_menu_manageban" 
+	android:orderInCategory="8" 
+	android:icon="@android:drawable/ic_menu_agenda" android:title="@string/msglist_manage_banned_users"/>
+	
+	<item android:id="@+id/message_menu_fullheaders" 
+	android:orderInCategory="9" 
+	android:title="@string/showheaders"/>	
+	
+	<item android:id="@+id/message_menu_settings" 
+	android:icon="@android:drawable/ic_menu_preferences" 
+	android:orderInCategory="10" android:title="@string/global_settings"/>
+
+</menu>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item android:id="@+id/banned_menu_select_all"
+  android:icon="@android:drawable/ic_menu_add"
+  android:orderInCategory="2"
+   android:title="@string/banned_menu_select"/>
+   
+<item android:id="@+id/banned_menu_unselect_all"
+  android:icon="@android:drawable/ic_menu_close_clear_cancel"
+  android:orderInCategory="3"
+   android:title="@string/banned_menu_deselect"/>  
+</menu>

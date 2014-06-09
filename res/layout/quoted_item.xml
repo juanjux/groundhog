@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_item"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    >
+    
+    	<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+   		android:id="@+id/img_quoting"
+   		android:clickable="true"
+   		android:src="@drawable/btn_check_off"
+   		android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+   		android:gravity="center_vertical"
+   		android:layout_weight="9"
+   		android:paddingRight="5px"
+   		/>	
+   		
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="bottom"
+	    android:layout_weight="1"
+	    >
+
+		<!--  XXX YYY ZZZ: ARREGLAR ESTE LAYOUT, VAYA ZURULLO (USO TEXTOS VACIOS COMO
+		      SEPARADORES PORQUE SINO LA ESTRELLA SE HACE PEQUEÑA O GRANDE SEGUN EL TAMANIO DE LO OTRO -->
+		<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"
+		/>	    
+		<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/text_quoteline"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="17sp"
+		/>
+			<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"
+		/>
+		</LinearLayout> 
+		
+
+
+	</LinearLayout>

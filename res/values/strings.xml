@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Not to change -->
+    <string name="app_name">Groundhog</string>
+    
+<string name="done">Done</string>
+
+<!--  These 4 are used when displaying a message, on the header -->
+	<string name="groupscolon">Groups: </string>
+	<string name="subjectcolon">Subject: </string>
+	<string name="authorcolon">Author: </string>
+	<string name="datecolon">Date: </string>
+
+<!--Start of settings strings -->	
+	<!-- Connection settings -->	
+		<string name="category_connection">Connection</string> <!-- Category title -->
+		<string name="section_mandatory">This section is mandatory</string> 
+		<string name="server_address_title">Server Address</string>
+		<string name="server_address_summary">News server Address</string>
+		<string name="server_address_dialog_title">Server host address:</string>
+		<string name="server_address_dialog_message">Enter your usenet server address (without the nntp://)</string>
+		
+		<string name="server_port_title">Server Port</string>
+		<string name="server_port_summary">Port the server uses (usually 119)</string>
+		<string name="server_port_dialog_title">Server port number:</string>
+		
+		<string name="server_need_login_title">Server needs login</string>
+		<string name="server_need_login_summary">Enable it if the server need user and pass</string>
+		<string name="login_name_title">Login name</string>
+		<string name="login_name_summary">Connection login name (this is NOT the user shown in posts!)</string>
+		<string name="login_name_dialog_title">Enter login name</string>
+		<string name="pass_title">Password</string>
+		<string name="pass_summary">Connection login password</string>
+		<string name="pass_dialog_title">Enter password</string>
+		
+		<string name="maxfetch_title">Max article fetch</string>
+		<string name="maxfetch_summary">Max articles to fetch when getting new ones</string>
+		<string name="maxfetch_dialog_title">Max fetch</string>
+		
+	<!-- User Info settings -->	
+		<string name="category_userinfo">User info</string>
+		<string name="summary_userinfo">User information (name, email, etc.)</string>
+		<string name="name_title">Name</string>
+		<string name="name_summary">Name to use on posts</string>
+		<string name="name_dialog_title">Enter name</string>
+		<string name="email_title">Email</string>
+		<string name="email_summary">Email to use on posts (mandatory but can be fake)</string>
+		<string name="email_dialog_title">Enter email</string>
+		<string name="signature_title">Signature</string>
+		<string name="signature_summary">Optionally put your customized signature</string>
+		<string name="signature_dialog_title">Write signature</string>
+			
+	<!-- Writing settings -->	
+		<string name="category_posting">Posting</string>
+		<string name="posting">Posting</string>
+		<string name="post_charset_title">Posting Charset</string>
+		<string name="post_charset_summary">Charset to use on the articles you post</string>
+			<string name="quote_title">Use quote selector</string>
+		<string name="quote_summary">Enable the screen for easy quoting before posting</string>
+		<string name="replycursor_title">Reply cursor at start</string>
+		<string name="replycursor_summary">If enabled, put the cursor at the start of the article when replying</string>
+		
+		<string name="followup_title">Multiple followups</string>
+		<string name="followup_summary">When replying a article posted to several groups followup to...</string>
+		<string name="followup_dialog_title">Followup to...</string>
+		
+		<string name="quotestring_title">Article quoting header</string>
+		<string name="quotestring_summary">Click to configure the initial line of the quoted text when replying</string>
+		<string name="quotestring_dialog_title">Configure line</string>
+		<string name="quotestring_dialog_message">Write the text to show as the first line of the original article before the quoted part. You can use the tokens [date] and [user] that will be replaced on the line with the appropiate values. For example the default value is: On [date], [user] wrote:</string>
+		<!-- Translate the sentence but NOT the words inside brackets like [date] or [quote] -->
+		<string name="default_quote_header">On [date], [user] wrote:</string>
+		
+		<string name="offlinemode_title">Offline mode posting</string>
+		<string name="offlinemode_summary">If enabled, articles posted in offline mode will tried to be sent online first</string>
+		
+	<!-- Reading settings -->
+		<string name="post_charset_dialog_title">Pick your charset</string>
+		<string name="options_reading">Options related to reading</string>
+		<string name="read_charset_title">Read Default Charset</string>
+		<string name="read_charset_summary">Default charset for reading</string>
+		<string name="read_charset_dialog_title">Pick your charset</string>
+		<string name="replies_title">Highlight my replies</string>
+		<string name="replies_summary">Highlight direct replies to my articles</string>
+		<string name="expire_mode">Read articles expiration</string>
+		<string name="expire_mode_summary">When to delete read articles</string>
+		<string name="expire_modes_dialog_title">Expiration mode</string>
+		
+
+<!-- End of settings strings -->
+
+
+<!--  Generic stuff -->
+	<string name="close">Close</string>
+	<string name="cancel">Cancel</string>
+
+<!-- These are used on the screen where the user can subscribe new groups -->
+	<string name="btn_search_groups">Search Groups</string>
+	<string name="statuscolon">Status:</string>
+	<string name="starting_d">Starting...</string>
+
+<!-- This is used on the quotes selector to select all text lines or select none of it -->
+	<string name="banned_menu_select">Select all</string>
+	<string name="banned_menu_deselect">Deselect all</string>
+	
+<!-- These strings are used on the compose message screen where the user can compose new messages -->	
+	<string name="send">Post</string>
+	<string name="discard">Discard</string>
+	<string name="compose_deletetext">Delete all text</string>
+	<string name="compose_increasesize">Increase text size</string>
+	<string name="compose_decreasesize">Decrease text size</string>
+	<string name="compose_changue_post_charset">Change post charset</string>
+
+	
+<string name="mark_all_read">Mark all as read</string>
+<string name="unsubscribe_group">Unsubscribe group</string>
+<string name="grouplist_getall">Get All Articless</string>
+<string name="grouplist_add_groups">Add Groups</string>
+<string name="grouplist_set_offline">Set Offline Mode</string>
+<string name="show_help">Show QuickHelp</string>
+<string name="global_settings">Settings</string>
+<string name="clear_cache">Clear Cache</string>
+<string name="msglist_mark_thread_read">Mark thread as read</string>
+<string name="msglist_mark_thread_unread">Mark thread as unread</string>
+<string name="msglist_star_thread">Star/Un-Star thread</string>
+<string name="msglist_ban_thread">Ban thread</string>
+<string name="msglist_ban_author">Ban author</string>
+<string name="msglist_newpost">New post</string>
+<string name="msglist_group_list">Groups List</string>
+<string name="msglist_refresh">Refresh</string>
+<string name="msglist_getnew">Get new articles</string>
+<string name="msglist_markread">Mark all read</string>
+<string name="msglist_manage_banned">Manage banned threads</string>
+<string name="msglist_manage_banned_users">Manage banned users</string>
+<string name="msglist_change_read_charset">Change read charset</string>
+<string name="reply">Reply</string>
+<string name="keep_unread">Keep Unread</string>
+<string name="forward">Forward by Email</string>
+<string name="ban_author">Ban Author</string>
+<string name="toggle_favorite">Toggle Favorite</string>
+<string name="increase_text_size">Increase text size</string>
+<string name="decrease_text_size">Decrease text size</string>
+<string name="showheaders">Show/Hide full headers</string>
+<string name="nothing_to_do">Nothing to do</string>
+<string name="there_are_no_bans">There are no bans</string>
+<string name="return_">Return</string>
+<string name="encoding">Encoding</string>
+<string name="change_encoding_tip"> (you can changue it with Menu &amp; Encoding)</string>
+<string name="posting_message">Posting Article...</string>
+<string name="empty_groups">empty groups!</string>
+<string name="must_select_group">&quot;You must select some group on the Groups field!</string>
+<string name="error_posting">Error posting!</string>
+<string name="group_offline_mode">Group List (offline mode)</string>
+<string name="group_online_mode">Group List (online mode)</string>
+<string name="group_headers">Group headers</string>
+<string name="server_change_detected">Server change detected - the old headers have been deleted</string>
+<string name="deleting_d">Deleting...</string>
+<string name="unsubscribing_deleting_caches">Unsubscribing and deleting caches...</string>
+<string name="marking_read_deleting_caches">Marking all articles as read and deleting read articles cache...</string>
+<string name="sync_messages">Sync Articles</string>
+<string name="set_online_mode">Set Online Mode</string>
+<string name="get_all_headers">Get All Headers</string>
+<string name="set_offline_mode">Set Offline Mode</string>
+<string name="confirm_expire_messages">Do you want to delete all read articles?</string>
+<string name="group_menu">Group menu</string>
+<string name="error">Error</string>
+<string name="mark_read_question">Do you want to mark all articles in {0} as read?</string>
+<string name="yes">Yes</string>
+<string name="no">No</string>
+<string name="unsubscribe_question">Do you want to unsubscribe from {0}?</string>
+<string name="unsubscribe">Unsubscribe</string>
+<string name="get_new">Get new</string>
+<string name="warning_online_to_offline_sync">Warning: the group has articles with headers but without contents (downloaded in online mode.) Do you want to get the contents now? (if you don\'t, the content will be
+ fetched from the net when you click on a article, even in offline mode)</string>
+<string name="yes_sync">Yes (sync)</string>
+<string name="no_enter_anyway">No (enter anyway)</string>
+<string name="fetch_headers_question">Do you want to fetch new headers for {0}?</string>
+<string name="asking_new_articles">Asking for new articles</string>
+<string name="full_messages">full articles</string>
+<string name="headers">headers</string>
+<string name="getting_something">Getting {0}</string>
+<string name="interrupted">Interrupted</string>
+<string name="auth_error">Auth Error</string>
+<string name="posting_pending_messages">Posting pending articles</string>
+<string name="finished">Finished</string>
+<string name="error_post_check_settings">There was an error trying to get or post the articles. Please check your connection settings:\n</string>
+<string name="download_interrupted_sleep">Download interrupted (Android sent me to sleep, probably)</string>
+<string name="error_authenticating_check_pass">There was an error trying to authenticate. Please check your user and password with your server:\n</string>
+<string name="loading_help_d">Loading help...</string>
+<string name="at_first_message">You\'re already at the first article</string>
+<string name="no_more_messages">There are no more articles in the group</string>
+<string name="open_save_attach_question">Open or save attachment?</string>
+<string name="open">Open</string>
+<string name="save">Save</string>
+<string name="saved_to">Saved to </string>
+<string name="attachment">Attachment</string>
+<string name="could_not_save_colon">Could not save: </string>
+<string name="stored_outbox_send_next_sync">Article stored in outbox, will be posted in next sync</string>
+<string name="message_sent">Article sent</string>
+<string name="message_discarded">Article discarded</string>
+<string name="reload_tosee_unbanned_authors">Use reload on the article list to see un-banned authors</string>
+<string name="nothing_to_unban">Nothing to unban</string>
+<string name="cant_reply_no_header_data">Can\'t reply; no header data</string>
+<string name="message_marked_unread">Article marked as unread</string>
+<string name="author_banned_reload_tohide">Author banned, reload on the article list to hide</string>
+<string name="cant_ban_no_header_data">Can\'t ban author; no header data</string>
+<string name="followup_multigroup_question">The article goes to more than one group. Do you want to followup to all or only to the current group? The groups are:\n</string>
+<string name="followup_all_groups">All</string>
+<string name="followup_current_group">Current</string>
+<string name="must_fill_name_email_goto_settings">You must fill your name and email (can be fake) on the settings (on the User Info section). Do you want to go to the settings now?</string>
+<string name="user_info_unset">User info unset</string>
+<string name="cant_make_favorite_no_header">Can\'t make favorite; no header data</string>
+<string name="fetching_body">Fetching article body</string>
+<string name="could_not_fetch_header">Could not fetch header from server</string>
+<string name="requesting_message">Requesting article</string>
+<string name="message">Article</string>
+<string name="error_loading_kept_unread">Error loading article body (article has been kept unread)</string>
+<string name="error_loading_kept_unread_long">There was an error trying to retrieve the article body. Please check your server settings and connection status (this article will be kept unread.)</string>
+<string name="error_saving_kept_unread">Error saving article  (article has been kept unread)</string>
+<string name="error_saving_kept_unread_long">There was an error trying to save the article to the sdcard or disk. Please check your sdcard (article has been kept unread)</string>
+<string name="server_doesnt_have_message">The server doesn\'t have the article anymore.</string>
+<string name="server_doesnt_have_message_long">[The server doesn\'t have the article anymore, it\'s probably too old or was spam]</string>
+<string name="new_subject">New Subject: \n</string>
+<string name="no_unread_use_sync">No unread articles, use Menu-&gt;Sync to get more</string>
+<string name="article_menu">Article menu</string>
+<string name="thread_ignore">Future thread articles will be ignored, use Menu-&gt;More-&gt;Manage banned threads to unignore</string>
+
+<string name="future_unignored_willbe_fetched">Future articles from unignored threads will be fetched</string>
+<string name="deleting_messages_caches">Deleting read articles and caches</string>
+<string name="threading_messages">Threading articles</string>
+<string name="messages">Articles</string>
+<string name="add_group">Add Group</string>
+<string name="subscribe_question">Do you want to subscribe to the group {0}?</string>
+<string name="already_subscribed_long">You are already subscribed to {0}!</string>
+<string name="already_subscribed_excl">Already Subscribed!</string>
+<string name="subscribed_ok">You have subscribed to {0}; use the BACK button for the group list</string>
+<string name="too_short_excl">Too Short!</string>
+<string name="too_short_three_chars">The search text must be at least 3 chars long</string>
+<string name="not_configured">Not configured</string>
+<string name="error_retrieving_check_connection">There was an error retrieving the results. Check your connection settings (specially server host, port and login information) or your signal. Do you want to go to the settings now?</string>
+<string name="error_auth_check_pass_go_settings">There was an error authenticating with the server; check your username and password settings. Do you want to go to the settings now?</string>
+<string name="go_to_settings">Go to settings</string>
+<string name="hostname_not_configured_goto_settings">Your usenet server hostname is not configured. Do you want to configure the program now?</string>
+<string name="group">Group</string>
+<string name="offline_group_has_no_messages_sync">The group has 0 unread articles, synchronize group to get more now?</string>
+<string name="subscribe_to_groups">Subscribe to Groups</string>
+<string name="banned_threads">Banned Threads</string>
+<string name="banned_users">Banned Users</string>
+<string name="select_quote">Select Text to Quote</string>
+<string name="all">All</string>
+<string name="none">None</string>
+<string name="category_reading">Reading</string>
+
+<!--  New on 1.12.0 -->
+	<string name="expire_messages">Delete read articles</string>
+	<string name="msglist_group_showread">Show Read</string>
+	<string name="msglist_group_hideread">Hide Read</string>
+	<string name="expiring_d">Expiring read articles...</string>
+
+
+<!--  New on 1.13.0 -->
+	<!-- Notifications category options at settings -->
+	<string name="preference_enable_notif_title">Notifications</string>	
+	<string name="preference_enable_notif_summary">Check for new articles and notify</string>
+	<string name="preference_wifiOnly">Only with WIFI</string>
+	<string name="pref_notif_period">Checking interval</string>
+	<string name="preference_useSound_title">Play sound</string>
+	<string name="preference_useVibration_title">Vibrate</string>
+	<string name="preference_useLight_title">Light</string>
+	<string name="summary_posting_screen">Options related to posting articles</string>
+	<!-- This is shown on Android bar notifications area (when expanded) -->
+	<string name="new_messages">New Usenet Articles</string>
+
+<!-- New on 1.13.1 -->
+	<!-- User can't currently input more than one word/wildcar on the subscribe screen search textbox: -->
+	<string name="only_one_word_title">Too many words</string>
+	<string name="only_one_word">Currently only one term (or wildcard) is allowed</string>
+	
+<!--  New on 1.16.0 -->
+	<string name="getlatest_all">Get All Recent</string>
+	<string name="getlatest">Get Recent Articles</string>
+	
+<!-- New on 1.17.0 -->
+	<string name="confirm_send">Post</string>
+	<string name="confirm_send_question">Post Article?</string>
+	<string name="confirm_discard">Discard</string>
+	<string name="confirm_discard_question">Discard Article?</string>
+	<string name="catchup_menu">Catchup Group</string>
+	<string name="catchup_menu_all">Catchup All</string>
+	<string name="catchingup_server">Catching up with the server</string>
+	<string name="catchup_done">Server catchup completed</string>
+
+<!-- New on 1.17.1 -->
+    <string name="ok">Ok</string>
+    <string name="empty_host_title">Empty Address</string>
+    <string name="empty_host_error">The server address is empty. Enter an address in Connection->Server Address</string>
+    <string name="empty_port_title">Empty Port</string>
+    <string name="empty_port_error">The port is empty. Enter a port address in Connection->Port</string>
+    <string name="empty_login_title">Empty Login</string>
+    <string name="empty_login_error">The login name is empty. Enter a login name in Connection->Login Name</string>
+    <string name="empty_pass_title">Empty Pass</string>
+    <string name="empty_pass_error">The password is empty. Enter a password in Connection->Password</string>
+	<string name="starting_download">Connecting for download</string>    
+	
+<!-- New on 1.19.0 -->
+	<string name="justifyText_title">Justify Text</string>
+	<string name="justifyText_summary">Justify Text (disable for programming or poetry groups)</string>
+	
+<!--  New on 1.20.0 -->
+	<string name="server_uses_ssl_title">Use SSL</string>
+	<string name="server_uses_ssl_summary">Tick if the server supports SSL encryption.</string>
+	<string name="trust_all_certificates_title">Trust any certificate</string>
+	<string name="trust_all_certificates_summary">Tick if your server has a self-signed certificate.  Use with caution!</string>
+</resources>
